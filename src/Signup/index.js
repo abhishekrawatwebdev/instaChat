@@ -78,7 +78,7 @@ const Signup = ({ navigation }) => {
       <Image source={backLogin} style={styles.backImage} />
       <View style={styles.whiteSheet} />
       <View style={styles.form}>
-      <Text style={styles.title}>Log In</Text>
+      <Text style={styles.title}>Sign Up</Text>
         <TextInput
           style={styles.input}
           placeholder="Enter email"
