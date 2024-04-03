@@ -1,79 +1,59 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React Native Chat Application
 
-# Getting Started
+# Description
+This is a chat application built using React Native that allows users to communicate with each other via text, images, and videos. The app includes features such as user authentication, signup, login,add friend and chat functionality.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+# Features
+User authentication using email and password.
+User signup functionality.
+Chat with other users via text messages.
+Send and receive images within the chat.
+Capture and share videos within the chat.
+# Installation
+1. Clone the repository to your local machine:
+      git clone https://github.com/abhishekrawatwebdev/instaChat.git
+2. Navigate into the project directory:
+      cd instaChat
+3. Install dependencies using npm or yarn:
+      npm install / yarn install
+4. Set up Firebase for authentication and Firestore for storing chat data. Refer to the Firebase documentation for detailed instructions.
+   
+5. Create a .env file in the project root and add your Firebase configuration values:
+      REACT_NATIVE_FIREBASE_API_KEY=your_api_key
+      REACT_NATIVE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+      REACT_NATIVE_FIREBASE_PROJECT_ID=your_project_id
+      REACT_NATIVE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+      REACT_NATIVE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+      REACT_NATIVE_FIREBASE_APP_ID=your_app_id
+      REACT_NATIVE_FIREBASE_MEASUREMENT_ID=your_measurement_id
+6. Run the app on your preferred platform (iOS/Android):
+        npx react-native run-ios
+                  or
+        npx react-native run-android
 
-## Step 1: Start the Metro Server
+# Usage
+- Launch the app on your device/emulator.
+- Sign up for a new account or log in using an existing account.
+- Start a chat with another user by selecting their name from the contact list.
+- Send text messages, images, or videos within the chat.
+- Enjoy chatting with your friends!
+  
+# Screenshots
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-To start Metro, run the following command from the _root_ of your React Native project:
 
-```bash
-# using npm
-npm start
+<img width="194" alt="image" src="https://github.com/abhishekrawatwebdev/instaChat/assets/76810038/da914770-5bbd-49cb-82ec-8e2ba651f293">
 
-# OR using Yarn
-yarn start
-```
+<img width="201" alt="image" src="https://github.com/abhishekrawatwebdev/instaChat/assets/76810038/715c6492-4138-490d-aeae-e4f92986e1d6">
 
-## Step 2: Start your Application
+<img width="202" alt="image" src="https://github.com/abhishekrawatwebdev/instaChat/assets/76810038/49b4d6d0-2bab-455f-a2b4-0dc3904e0bc6">
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+<img width="200" alt="image" src="https://github.com/abhishekrawatwebdev/instaChat/assets/76810038/ef4da2df-5817-4907-b985-e723446824c3">
 
-### For Android
+<img width="199" alt="image" src="https://github.com/abhishekrawatwebdev/instaChat/assets/76810038/08ae024e-9488-46b0-a420-35fa35e34aad">
 
-```bash
-# using npm
-npm run android
+<img width="199" alt="image" src="https://github.com/abhishekrawatwebdev/instaChat/assets/76810038/4616967f-417b-46fd-813d-aecb0cb5d03d">
 
-# OR using Yarn
-yarn android
-```
 
-### For iOS
 
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+ 
